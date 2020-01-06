@@ -1,3 +1,6 @@
+init:
+	./.venv/bin/python setup.py bdist_wheel
+
 install:
 	virtualenv ./.venv
 	./.venv/bin/pip install -r requirement.txt
@@ -10,5 +13,3 @@ coverage:
 	./.venv/bin/coverage html
 	./.venv/bin/coverage report
 
-build:
-	./.venv/bin/python setup.py bdist_wheel
