@@ -1,0 +1,7 @@
+.coverage
+.venv/*
+htmlcov/*
+smplsvc.egg-info/*
+build/*
+*.pyc
+__pycache__
