@@ -5,3 +5,4 @@ smplsvc.egg-info/*
 build/*
 *.pyc
 __pycache__
+dist/*
